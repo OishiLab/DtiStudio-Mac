@@ -67,14 +67,19 @@ Apple Silicon Macs (M1/M2/M3/M4 chips): Wine is designed for x86 architecture, s
 ```
 softwareupdate --install-rosetta
 ```
-5. **Dowonoad DtiStudio.exe**<br> 
-   **for JHU-BME students:** get DtiStudio_64_Apr_2019.exe and sample data. Put them under Mackintosh HD/Users/<your_account>/MRIStudio/ <br>
+5. **Dowonoad DtiStudio.exe**<br>
+   For general users, here is the link (https://www.mristudio.org)<br>
+   **for JHU-BME students:** get DtiStudio_64_Apr_2019.exe and sample data from (https://drive.google.com/drive/folders/1wxxKQ5bRUoK3G5c2KRl6TVHtmbdCpSHO?usp=share_link). Put them under Mackintosh HD/Users/<your_account>/MRIStudio/ <br>
     
-6. **Run DtiStudio on your Mac**<br>
+7. **Run DtiStudio on your Mac**<br>
 Go to Launchpad, click Wine Stable icon to open Wine zsh.<br>
 To run the installed application:<br>
 Locate the .exe file inside the installed directory.<br>
-Use the wine command to run it:<br>
+Use the wine command to run vcredist_x64.exe:<br>
+```
+wine vcredist_x64.exe
+```
+then open DtiStudio<br>
 ```
 wine DtiStudio.exe
 ```
