@@ -79,7 +79,11 @@ Use the wine command to run vcredist_x64.exe:<br>
 ```
 wine vcredist_x64.exe
 ```
-then open DtiStudio<br>
+then open DtiStudio (for general users)<br>
 ```
 wine DtiStudio.exe
+```
+For JHU-BME students
+```
+wine DtiStudio_64_Apr_2019.exe
 ```
